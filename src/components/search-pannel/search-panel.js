@@ -3,10 +3,9 @@ import './search-panel.css';
 
 const SearchPannel = () => {
     const searchText = 'Type here to search';
-    const searchStyle= {
-        fonySize: '25px'
-    }
-    return <input placeholder={searchText} style={searchStyle} />;
+    const searchStyle= {fontSize: '15px'}
+    return <input className='btn btn-outline-secondary'
+    placeholder={searchText} style={searchStyle} />;
 }
 
 export default SearchPannel;
