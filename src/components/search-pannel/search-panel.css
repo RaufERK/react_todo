@@ -1,4 +1,5 @@
 .search-input {
+  fontSize: '15px';
   width: auto;
   flex-grow: 1;
   margin-right: 31px;
